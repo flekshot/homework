@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+// Здравствуйте я пытался поменять название на таск2 но ошибки которые появились после, я не смог решить .Это задача номер 2
 class Chelovek {
     private String imya;
 

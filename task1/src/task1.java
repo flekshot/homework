@@ -1,10 +1,10 @@
-public class Person {   
+public class task1 {
     private String name;
     private String surname;
     private int age;
-    private boolean gender; // true for Male, false for Female
+    private boolean gender;
 
-    public Person(String name, String surname, int age, boolean gender) {
+    public task1(String name, String surname, int age, boolean gender) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -16,8 +16,8 @@ public class Person {
         return "Hi, I am " + name + " " + surname + ", a " + age + "-year-old " + genderString + ".";
     }
     public static void main(String[] args) {
-        Person person1 = new Person("John", "Doe", 30, true);
-        Person person2 = new Person("Jane", "Smith", 25, false);
+        task1 person1 = new task1("John", "Doe", 30, true);
+        task1 person2 = new task1("Jane", "Smith", 25, false);
 
         System.out.println(person1);
         System.out.println(person2);
