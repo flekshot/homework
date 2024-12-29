@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class main {
+class task4 {
     public static void main(String[] args) {
         shkola shkola = new shkola();
         try {

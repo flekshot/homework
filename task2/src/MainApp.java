@@ -19,13 +19,13 @@ class Student extends Chelovek {
     private int studentID;
     private List<Integer> otsenki;
 
-    public Student(String imya) {
+    Student(String imya) {
         super(imya);
         this.studentID = new Random().nextInt(9000) + 1000;
         this.otsenki = new ArrayList<>();
     }
 
-    public void dobavitOtsenku(int otsenka) {
+    void dobavitOtsenku(int otsenka) {
         if (otsenka >= 0 && otsenka <= 100) {
             otsenki.add(otsenka);
         } else {
